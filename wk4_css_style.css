@@ -1,0 +1,162 @@
+body {
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Georgia, serif serif;
+    font-size: 14px;
+}
+
+#header {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 10px;
+}
+h1 {
+    color: rgb(50, 23, 83);
+    padding: 30px;
+    text-align: center;
+}
+p {
+    color: #46212d;
+    padding-left: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 40px;
+    color: #070446;
+    margin-bottom: 10px;
+}
+
+.h3 {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: #070446;
+    margin-top: 10px;
+}
+
+.ask {
+    color: #119ad7;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 10px;
+    border: 2px solid #5c755e;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    margin: none;
+  }
+
+ul li:last-child {
+    border-bottom: none
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* style input */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  input[tye=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .submitbutton {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .cancelbutton {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  input[type=submit] {
+    background-color: #45a049;
+  }
+
+  /* style the container/contact section */
+  .container {
+    max-width: 40%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    padding-right: 100px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-form {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+   
+  }
+
+  /* create two columns that float together */
+  .columns {
+    float: left;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+
+  }
+
+  /* clear float after the column */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+  @media  screen and (max-width: 600px) {
+    columns, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+  }
+    
+  
